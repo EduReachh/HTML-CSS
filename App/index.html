@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Basics Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a001a; /* dark purple */
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      text-align: center;
+      color: #e0b3ff; /* light purple accent */
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 900px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #3d0066; /* medium purple */
+      border-radius: 12px;
+      padding: 40px 20px;
+      text-align: center;
+      flex: 1 1 250px;
+      max-width: 250px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      background-color: #5c0099;
+    }
+
+    .card a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML, CSS & JS Demos</h1>
+
+  <div class="container">
+    <div class="card">
+      <a href="01-html-only.html">HTML Only</a>
+    </div>
+    <div class="card">
+      <a href="02-html-css.html">HTML + CSS</a>
+    </div>
+    <div class="card">
+      <a href="03-html-css-js.html">HTML + CSS + JS</a>
+    </div>
+  </div>
+</body>
+</html>
