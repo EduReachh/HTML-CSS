@@ -11,15 +11,6 @@ A tiny site that demonstrates how **HTML**, **CSS**, and **JavaScript** work tog
 - **HTML + CSS:** https://edureachh.github.io/HTML-CSS/02-html-css.html
 - **HTML + CSS + JS:** https://edureachh.github.io/HTML-CSS/03-html-css-js.html
 
-> If the root URL shows a “must provide `index.html`” message, ensure there’s an `index.html` file at the **repository root** (included in this project).
-
----
-
-## 📁 Demo Structure
-
-
-
-
 ## ✨ What Each Demo Shows
 
 1. **01 – HTML Only**  
@@ -44,7 +35,46 @@ You only need a web browser.
 
 Here's how to get started:
 
-# Clone your repo
+---
+
+# Clone your repo OR start your own project
 git clone https://github.com/edureachh/HTML-CSS.git
 cd HTML-CSS
 
+## 💡 Project Ideas for Students
+
+---
+
+## 🔹 Beginner (HTML Only)
+
+Personal Bio Page — Heading with their name, a paragraph about themselves, and a list of hobbies.
+
+Simple Recipe Page — Title, ingredients in a list, and steps in numbered order.
+
+---
+
+## 🔹 Intermediate (HTML + CSS)
+
+Portfolio Card — A styled card with their photo, name, and links.
+
+Blog Article Page — A title, article text, and styled headings/subheadings.
+
+Quote Page — A centered blockquote styled with CSS.
+
+---
+
+## 🔹 Advanced (HTML + CSS + JS)
+
+Interactive To-Do List (basic) — Toggle tasks between “Done ✅” and “Not Done ❌”.
+
+Color Changer — A button that changes the background color when clicked.
+
+Simple Quiz Page — Multiple-choice buttons → reveal “Correct/Incorrect”.
+
+---
+
+## 🔹 Bonus (Semantic HTML)
+
+News Article Page — Use <header>, <nav>, <article>, <section>, <footer>.
+
+Mini Portfolio Website — Multiple pages (Home, About, Contact) linked with <nav>.
