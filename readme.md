@@ -15,10 +15,10 @@ A tiny site that demonstrates how **HTML**, **CSS**, and **JavaScript** work tog
 
 ---
 
-## 📁 Project Structure
+## 📁 Demo Structure
 
 
----
+
 
 ## ✨ What Each Demo Shows
 
