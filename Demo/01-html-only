@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Demo</title>
+</head>
+<body>
+  <h1>Welcome to My Page</h1>
+  <p id="message">This is just HTML.</p>
+  <button>Click Me</button>
+</body>
+</html>
